@@ -1,0 +1,10 @@
+DROP PROCEDURE IF EXISTS get_names_grades;
+
+DELIMITER &&
+CREATE PROCEDURE get_names_grades()
+BEGIN
+	SELECT CUST_NAME, GRADE FROM customer WHERE (OPENING_AMT + RECEIVE_AMT) > 10000;
+END &&
+DELIMITER ;
+
+CALL get_names_grades();
