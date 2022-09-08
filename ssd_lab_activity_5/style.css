@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: auto;
+    width: 50%;
+}
+
+table {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#addButton {
+    background-color: green;
+}
+
+#deleteButton {
+    background-color: red;
+}
