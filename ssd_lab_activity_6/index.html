@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Team Form</title>
+</head>
+
+<body>
+    <h1>Team Form</h1>
+    <form id="team_form" method="post" action="">
+        <label for="m_name">Manager Name:</label>
+        <input type="text" id="m_name" name="m_name" required><br><br>
+
+        <label for="g_email">Group Email:</label>
+        <input type="email" id="g_email" name="g_email" required><br><br>
+
+        <label for="s_usrname">Server Username:</label>
+        <input type="text" id="s_usrname" name="s_usrname" required><br><br>
+
+        <label for="pwd">Server Password:</label>
+        <input type="password" id="pwd" name="pwd" required><br><br>
+
+        <label for="c_pwd">Confirm Password:</label>
+        <input type="password" id="c_pwd" name="c_pwd" required><br><br>
+
+        <label for="team_lead">Team Lead:</label>
+        <select name="team_lead" id="team_lead" required>
+            <option value="Vivek">Vivek</option>
+            <option value="Yash">Yash</option>
+            <option value="prasad">Prasad</option>
+            <option value="Gaurav">Gaurav</option>
+            <option value="Gunank">Gunank</option>
+            <option value="Tarun">Tarun</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
